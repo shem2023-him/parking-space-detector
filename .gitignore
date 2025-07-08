@@ -1,0 +1,25 @@
+# Virtual environment
+.venv/
+tf-env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Models and datasets
+*.h5
+*.csv
+*.pkl
+data/
+raw_images/
+pkl dataset/
+others/
+updated confusion matrix.png
+confusion matrix.png
+
+# Streamlit cache
+.streamlit/
+
+# System files
+.DS_Store
+Thumbs.db
