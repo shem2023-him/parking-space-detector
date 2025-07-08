@@ -1,25 +1,29 @@
-# Virtual environment
+# Virtual environments
 .venv/
 tf-env/
 
-# Python cache
-__pycache__/
-*.py[cod]
+# Streamlit
+.streamlit/
 
-# Models and datasets
+# Model files
 *.h5
-*.csv
 *.pkl
+*.csv
+
+# Dataset folders
 data/
 raw_images/
 pkl dataset/
 others/
-updated confusion matrix.png
-confusion matrix.png
 
-# Streamlit cache
-.streamlit/
+# Python bytecode
+__pycache__/
+*.py[cod]
 
-# System files
+# OS files
 .DS_Store
 Thumbs.db
+
+# Logs & misc
+*.log
+*.png
